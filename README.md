@@ -1,5 +1,8 @@
 BYOD Captioning
 ===============
+**This is the manual version of the BYOD captioning (where each user presses a button to start the captions). If you are intrested in the automatic version (where a show operator presses on button to start all the captions), the repo can be found at https://github.com/jsub1/AdlerSubtitles**
+
+
 This project is designed to display subtitles at predeteremined intervals for BYOD (Bring Your Own Device) captioning. There is a JSON file that is an array of subtitles that have both a text and time properties. The script of the Adler Planetarium's Cosmic Wonder skyshow is provided as an example in CosmicWonder.json. Settings can be modified in the config.json file.
 
 config.json options:
