@@ -15,3 +15,5 @@ config.json options:
   * absoluteTiming: Boolean that determines if absolute or relative timing is used. If true, the time property of each subtitle is the time between the button being pressed and the subtitle appering (absolute timing). If false, the time property of each line is the duration of the line on the screen (relative timing).
   * tagSubtitles: An array with two strings. Each subtitle is inserted between the first and second string before being displayed.
   * msPerTimeUnit: The number of milliseconds per time unit used. The default vale is 1000 because the default time unit is seconds.
+  * transitionHTML: The HTML to display to indicate an upcoming change of text. Set to "" for a blank screen
+  * transitionDuration: The number of time units to display the transition HTML
