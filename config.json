@@ -7,3 +7,5 @@ initalDelay = 0;
 absoluteTiming = true;
 tagSubtitles = ["<p>","</p>"];
 msPerTimeUnit = 1000;
+transitionHTML = "->"
+transitionDuration = 3;
